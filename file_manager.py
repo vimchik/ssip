@@ -4,10 +4,7 @@
 import os
 from functions import *
 
-def main():
-    
-    print("Tatiana's file manager. Connection established.")
-    
+def main():   
     while True:
         
         print("Choose an action:")
