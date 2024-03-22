@@ -28,7 +28,7 @@ CURRENT_DIRECTORY = os.getcwd()
 
 def move_up():
     global CURRENT_DIRECTORY
-    if CURRENT_DIRECTORY == "/home/tatiava/File_Manager":
+    if CURRENT_DIRECTORY == "/home/wuw/File_Manager":
         print("You are already in the main folder.")
     else:
         os.chdir("..")
